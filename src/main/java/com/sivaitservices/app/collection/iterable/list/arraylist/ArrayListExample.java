@@ -1,6 +1,9 @@
 package com.sivaitservices.app.collection.iterable.list.arraylist;
 
+import java.lang.reflect.Field;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class ArrayListExample {
 
@@ -16,13 +19,36 @@ public class ArrayListExample {
             Array lists are created with an initial size. When this size is exceeded,
             the collection is automatically enlarged. When objects are removed, the array can be shrunk.
         4) Arraylist is not synchronized
+        5) An ArrayList is a build-in data structure that uses a dynamic array to store its elements.
+        6) ArrayList only supports object entries, wrapper classes (Integer, Double, Boolean, Byte).
+        not the primitive data types (int, double,boolean, byte )
+        7) Object Array in ArrayList is transient. It implements RandomAccess, Cloneable,
+         and java.io.Serializable.
 
+        8) What happens if an element is removed from an ArrayList?
+        When items are deleted from an ArrayList in Java, the gap produced by the removal of an element
+        must be filled in the underlying array using either remove (int I (i.e. using index) or remove (Object o).
+        Shifting any following components to the left does this (subtracts one from their indices).
+        It is done via the System.arrayCopy method.
 
+        9)  ArrayList is a resizable array implementation. ArrayList expands dynamically, ensuring that there is
+        always room for more elements to be added. An array of the Object class serves as the ArrayList's underpinning
+         data structure.
+
+         10) The default load factor of 0.75f ensures that the ArrayList always provides the optimal performance in
+         terms of both space and time.
+
+        References:
+        https://www.javatpoint.com/internal-working-of-arraylist-in-java
      */
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         // Create an array list.
         ArrayList<String> al = new ArrayList<String>();
+
+        //converting arraylist to synchronized
+        //List<String> al2 = Collections.synchronizedList(new ArrayList<String>());
+        al.ensureCapacity(5);
         System.out.println("Initial size of al: " +
                 al.size());
 
@@ -44,5 +70,10 @@ public class ArrayListExample {
         System.out.println("Size of al after deletions: " +
                 al.size());
         System.out.println("Contents of al: " + al);
+
+
+
     }
+
+
 }

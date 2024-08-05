@@ -18,6 +18,11 @@ Adding and removing elements,traversing = HashMap O(1)
 If insertion order matters, then LinkedHashMap O(1)
 If Sorting matters, then TreeMap O(1)
 
+Collections and data structures
+
+https://www.codecademy.com/learn/java-for-programmers/modules/java-for-programmers-built-in-data-structures/cheatsheet
+
+
 
 Google search key
 Date : Aug 4th 2024
