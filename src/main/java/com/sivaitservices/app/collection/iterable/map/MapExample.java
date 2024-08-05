@@ -1,4 +1,4 @@
-package siva.collection.iterable.map;
+package com.sivaitservices.app.collection.iterable.map;
 
 public class MapExample {
     /*

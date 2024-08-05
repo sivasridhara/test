@@ -1,4 +1,4 @@
-package siva.collection.iterable.list;
+package com.sivaitservices.app.collection.iterable.list;
 
 import java.util.ArrayList;
 import java.util.HashSet;

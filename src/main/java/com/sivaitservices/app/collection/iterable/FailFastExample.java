@@ -1,4 +1,4 @@
-package siva.collection.iterable;
+package com.sivaitservices.app.collection.iterable;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;

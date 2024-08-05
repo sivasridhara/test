@@ -1,4 +1,4 @@
-package siva.collection.iterable.queue;
+package com.sivaitservices.app.collection.iterable.queue;
 
 import java.util.LinkedList;
 import java.util.Queue;
