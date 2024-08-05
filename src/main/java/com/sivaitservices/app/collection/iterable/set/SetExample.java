@@ -30,12 +30,15 @@ public class SetExample {
         set.add(null);
         set.add(null);
 
-        System.out.println(set);
-        //List<String> list = Arrays.asList(Arrays.toString(set.toArray()));
+        System.out.println("@@@Set : "+set);
+        List<String> list = Arrays.asList(Arrays.toString(set.toArray()));
         //Set to List
-        List<String> list = set.stream().toList();
+        //List<String> list = set.stream().toList();
 
-        System.out.println(list);
+
+
+
+        System.out.println("@@@list : "+list);
 
 // Java Program Demonstrating Operations on the Set
 // such as Union, Intersection and Difference operations 
