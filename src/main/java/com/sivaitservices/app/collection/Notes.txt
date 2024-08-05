@@ -1,0 +1,24 @@
+
+References:
+
+
+https://www.baeldung.com/java-choose-list-set-queue-map
+
+List
+Adding and removing elements, traversing = Arraylist O(1), Linked List O(n)
+
+Set
+Adding and removing elements,traversing = HashSet O(1)
+If insertion order matters, then LinkedHashSet O(1)
+If Sorting matters, then TreeSet O(1)
+
+Map
+
+Adding and removing elements,traversing = HashMap O(1)
+If insertion order matters, then LinkedHashMap O(1)
+If Sorting matters, then TreeMap O(1)
+
+
+Google search key
+Date : Aug 4th 2024
+arraylist architecture and interview questions
